@@ -6,7 +6,10 @@ const lName = "Lynx";
 const luckyNo = Math.round(Math.random() * 10);
 
 const img = "https://picsum.photos/200";
+
 //the styling has to be done as js object and the key will no longer be kebab but camel case
+//inline styling if for when ur code should shange on the go like depending on time
+
 const customStyle = {
   color: "red",
   fontSize: "20px",
